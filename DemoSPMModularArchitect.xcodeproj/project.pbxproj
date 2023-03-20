@@ -58,12 +58,9 @@
 		2A62DF8629C88CC7003C6CCF /* DemoSPMModularArchitect */ = {
 			isa = PBXGroup;
 			children = (
+				2AA0C4E029C89FD20095734B /* App */,
 				2A4978CC29C8990000DDE0D1 /* AppFeatures */,
 				2A62DF9B29C88CF1003C6CCF /* Packages */,
-				2A62DF8729C88CC7003C6CCF /* AppDelegate.swift */,
-				2A62DF9029C88CC8003C6CCF /* Assets.xcassets */,
-				2A62DF9229C88CC8003C6CCF /* LaunchScreen.storyboard */,
-				2A62DF9529C88CC8003C6CCF /* Info.plist */,
 			);
 			path = DemoSPMModularArchitect;
 			sourceTree = "<group>";
@@ -108,6 +105,17 @@
 				2AA0C4DF29C899D30095734B /* UserFeature */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		2AA0C4E029C89FD20095734B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2A62DF9029C88CC8003C6CCF /* Assets.xcassets */,
+				2A62DF9529C88CC8003C6CCF /* Info.plist */,
+				2A62DF9229C88CC8003C6CCF /* LaunchScreen.storyboard */,
+				2A62DF8729C88CC7003C6CCF /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoSPMModularArchitect/Info.plist;
+				INFOPLIST_FILE = DemoSPMModularArchitect/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -350,7 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoSPMModularArchitect/Info.plist;
+				INFOPLIST_FILE = DemoSPMModularArchitect/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
